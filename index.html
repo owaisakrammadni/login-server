@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sign Up Page :</title>
 
 </head>
 
 <body>
+        <div class="main">
     <form onsubmit="return postSign()">
         <label>Name :</label>
         <br>
@@ -27,7 +29,7 @@
         <input type="password" name="password" id="password">
         <br>
         <br>
-        <input type="submit" value="Sign Up!"><br>
+        <input type="submit" value="Sign Up!" class="inp"><br>
         <br>
 
     </form>
@@ -35,6 +37,7 @@
     <p style="font-size: 18px;">Already have an accunt?<a href="./login.html">Login</a> </p>
     <br>
     <span id="result"></span>
+</div>
 
     <script src="index.js"></script>
 </body>

@@ -1,0 +1,41 @@
+
+.main{
+    border: 2px solid black;
+    width: 60%;
+  background:linear-gradient(rgb(243, 240, 82),rgb(138, 138, 233));
+ color: rgb(77, 76, 73);
+  text-align: center;
+}
+
+
+.inp{
+    background:linear-gradient(rgb(243, 240, 82),rgb(138, 138, 233));
+
+}
+
+
+.inp:hover{
+    background:linear-gradient(rgb(255, 251, 4),rgb(249, 249, 255));
+    
+}
+
+
+.main2{
+    border: 2px solid black;
+    width: 60%;
+    background:linear-gradient(rgb(243, 240, 82),rgb(138, 138, 233));
+     color: rgb(77, 76, 73);
+    text-align: center;
+    padding-top: 20px;
+  
+}
+button{
+    background:linear-gradient(rgb(243, 240, 82),rgb(138, 138, 233));
+
+}
+
+
+button:hover{
+    background:linear-gradient(rgb(255, 251, 4),rgb(249, 249, 255));
+    
+}
